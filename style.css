@@ -1,0 +1,314 @@
+.logo{
+    margin: 20px;
+    height: 45%;
+    width: 20%;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(235, 244, 241);
+    height: 82px;
+}
+
+.btn_nav{
+    height: 65%;
+    font-weight: bold;
+    width: 15%;
+    border-radius: 20%;
+    font-size: 100%;
+    border: none;
+    margin-left: 50px;
+}
+
+.btn_nav:hover{
+    background-color: antiquewhite;
+    transition: 3s;
+    text-shadow: 0lvi;
+    font-style: italic;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn_div{
+    margin: 10px;
+    height: 50px;
+    width: 700px;
+    align-content: center;
+    padding: 5px;
+}
+
+.desc{
+    text-align: center;
+    background-color: rgb(221, 200, 222);
+    height: 600px;
+    padding-top: 1px;
+}
+
+.btn_learn{
+
+    border: blue solid;
+    border-width: 2px;
+    height: 70px;
+    width: 210px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn_learn:hover{
+    background-color: rgb(143, 55, 220);
+    box-shadow: 10pc;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-top{
+    height: 650px;
+    width: 1100px;
+    border-radius: 35px;
+}
+
+.abs_img{
+    position: absolute;
+    left:8.5%;
+    top: 85%;
+}
+
+.card{
+    margin-top: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 500px;
+    margin-left: 75px;
+}
+
+.icon{
+    height: 85px;
+    width: 85px;
+}
+
+.parg{
+    font-size: 20px;
+}
+
+.hd_prag{
+    font-size: 35px;
+}
+
+.card_btn{
+    height: 75px;
+    width: 130px;
+    border-radius: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: rgb(117, 117, 241) solid;
+    border-width: 1.5px;
+    margin-top: 25px;
+}
+
+.card_btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(105, 187, 187);
+    color: aliceblue;
+}
+
+.card_des{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 35px;
+}
+
+.pro_card{
+    width: 350px;
+    height: 460px;
+    border-radius: 27%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 35px;
+}
+
+.pro_img{
+    height: 285px;
+    width: 350px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.pro_hd_txt{
+    font-size: 25px;
+    text-align: center;
+}
+
+.pro_txt{
+    font-size: 20px;
+    text-align: center;
+}
+
+.proj_card_head{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1200px;
+    margin: 45px;
+    margin-left: 100px;
+}
+
+.hd_txt{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hd_prg{
+    margin-left: 300px;
+    font-size: 20px;
+    text-align: center;
+    width: 700px;
+}
+
+.project{
+    margin-top: 90px;
+    height: 1840px;
+    background-color: rgb(234, 231, 231);
+}
+
+.img_lrn{
+    height: 580px;
+    width: 500px;
+    border-radius: 10%;
+    margin-left: 40px;
+}
+
+.learn_more{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 90px;
+}
+
+.btn_lrn{
+    width: 180px;
+    background-color: rgb(214, 215, 239);
+    height: 60px;
+    font-size: 18px;
+    border-radius: 40%;
+    font-weight: bold;
+    border: rgb(189, 135, 240) solid;
+}
+
+.btn_lrn:hover{
+
+    background-color: rgb(155, 131, 243);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.contact::before{
+    content: '';
+    background-image: url("https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?t=st=1727342631~exp=1727346231~hmac=89e53f31147a8ed0e235379a880c7923385fd7def59ff049e9c4f086c7a4e5cc&w=740");
+    position: absolute;
+    height: 700px;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+   
+}
+
+.contact{
+    position: relative;
+    height: 700px;
+    background-color: rgb(56, 48, 48);
+}
+
+.submit{
+    width: 130px;
+    background-color: rgb(214, 215, 239);
+    height: 55px;
+    font-size: 18px;
+    border-radius: 35%;
+    font-weight: bold;
+    border: rgb(189, 135, 240) solid;
+}
+
+.submit:hover{
+    background-color: rgb(155, 131, 243);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input{
+    padding-left: 320px;
+    margin-top: 80px;
+    isolation: isolate;
+}
+
+input{
+    isolation: isolate;
+    border: none;
+    border-bottom: solid; 
+    width: 280px; 
+    margin: 10px;
+    background: transparent;
+    color: beige;
+}
+
+
+input:focus{
+outline: none;
+}
+
+::placeholder{
+    color: aliceblue;
+}
+
+.im-icon{
+    height: 35px;
+    width: 35px;
+    margin-top: 30px;
+   
+}
+
+.call{
+    margin: 30px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 190px;
+    height: 80px;   
+}
+
+.icon-txt{
+   font-size: 30px;
+   text-align: center;
+   width: 90px;
+   margin-right: 63px;
+}
+
+.cnt_div{
+    height: 280px;
+    width: 350px;
+    border: solid;
+    border-radius: 30%;
+    background-color: aliceblue;
+}
+
+.lst-card{
+    isolation: isolate;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+}
+
+iframe{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    margin: 40px;
+}
+
